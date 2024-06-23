@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/best-service-stats-sm-bg.png");
+    background-size: cover;
+    display: flex;
+    color: white;
+    justify-content: center;
+    height: 50vh;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-top: 25px;
+}
+
+.bottom-section {
+    margin-left: 15px;
+    flex-wrap: wrap;
+
+}
+
+.heading {
+    font-family: Open Sans;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.blue-text {
+    color: #176fff;
+}
+
+@media (min-width:992px) {
+    .top-section {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/best-service-stats-lg-bg-v1.png");
+        width: 800px;
+        padding-top: 100px;
+        justify-content: center;
+
+    }
+
+    .bottom-section {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .heading {
+        font-size: 42px;
+    }
+
+    .bg-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
